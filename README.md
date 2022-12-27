@@ -1,2 +1,3 @@
 # Gym
-Gym Landing Page
+Gym Landing Page 
+by using React, Material UI and some CSS
