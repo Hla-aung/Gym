@@ -1,0 +1,45 @@
+a {
+    text-decoration: none;
+    color: #eff6e0;
+}
+
+.fullpage {
+    width: 100%; 
+    min-height: 100vh; 
+    background-color: #01161E;
+}
+.package {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.card {
+    width: 300px;
+    height: 200px;
+}
+@media screen and (max-width: 450px) {
+    .fullpage {
+        width: auto;
+        min-height: 60vh;
+    }
+    a {
+        font-size: 12px;
+    }
+    .therock, .gymgirl {
+        display: none;
+    }
+    .package {
+        grid-template-columns: auto;
+    }
+    .card {
+        display: none;
+    }
+    .footerlogo {
+        display: none;
+    }
+    .link > a {
+        display: none;
+    }
+    .heading > .headingimg {
+        margin-left: 0px;
+    }
+}
